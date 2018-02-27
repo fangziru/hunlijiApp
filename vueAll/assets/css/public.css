@@ -1,0 +1,123 @@
+html,body,div,p,dl,dt,dd,ol,ul,li,form,table,tr,td,hr,h1,h2,h3,h4,h5,h6,img,input,fieldset,figure
+{margin:0; padding:0;}
+a
+{
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+ul li
+{
+	list-style: none;
+}
+html,body{
+	font-size:100px;
+}
+body
+{
+	font-size: 16px;
+	font-family:"微软雅黑";
+	background:#f2f3f5;
+
+}
+html,body{height:100%;}
+	body
+	{display:flex;
+	flex-direction:column;
+	justify-content:space-between;}
+input
+{
+	outline: none;
+}
+img
+{
+	display: block;
+	border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 100;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+
+
+.section
+{
+	width:100%;
+	flex:1;
+	overflow:auto;
+	
+}
+
+.yuandian
+{
+	width:8px;
+	height:8px;
+	background:#f93245;
+	border-radius: 50%;
+	position:fixed;
+	right:30px;
+	top:13px;
+}
+
+/*footer*/
+.footer
+{
+	height:184px;
+	background:white;
+	display:flex;
+	justify-content: space-around;
+	border-top:1px solid #cecccd;
+	align-items:center;
+}
+.footer a
+{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	color:#8c8c8c;
+}
+.footer a:hover span
+{
+	color:#ec3b4d;
+}
+.footer a:hover i
+{
+	color:#ec3b4d;
+}
+.footer a span
+{
+	font-size:10px;
+}
+.footer a i
+{
+	font-size:22px;
+}
+
+
+
+/*轮播图分页器，详情页*/
+.f-banner .swiper-pagination-bullet {
+    width:0.12rem !important;
+    height:0.03rem !important;
+    background: #FFFFFF;
+    opacity:0.4;
+    border-radius: 0.015rem !important;
+}
+.f-banner .swiper-pagination-bullet-active{
+    opacity:1;
+}
+
+/*登录注册*/
+.loginHeader .swiper-pagination-bullet{
+    width: 0.1rem!important;
+    height: 0.025rem!important;
+    border-radius: 35%!important;
+    background:#999!important;
+}
+.loginHeader .swiper-pagination-bullet-active{
+    background: #fff!important;
+}
+

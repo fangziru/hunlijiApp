@@ -1,0 +1,10 @@
+
+.loginHeader .swiper-pagination-bullet{
+    width: 0.1rem!important;
+    height: 0.025rem!important;
+    border-radius: 35%!important;
+    background:#999!important;
+}
+.loginHeader .swiper-pagination-bullet-active{
+    background: #fff!important;
+}
