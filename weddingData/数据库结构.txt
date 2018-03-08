@@ -1,0 +1,9 @@
+﻿数据库名wedding
+其中的表：
+	购物车表名：goodscarts
+	详情页表名：goodsdetails
+	列表页表名：goodslist1
+	            goodslist2
+	            goodslist3
+	            goodslist4
+	用户表：userdatas
